@@ -1,15 +1,15 @@
-# Frontend
-## Backend Repository
-
-You can find the backend code here: [Backend Repo](https://github.com/devitsah/API_Backend.git)
-
-
 # API Management Frontend
 
+## Backend Repository
+
+You can find the backend code here: [Backend Repo](https://github.com/<your-username>/API_Backend.git)
+
 ## Overview
+
 This is the frontend for the API Management System, providing a user-friendly interface for managing API keys, monitoring analytics, and configuring API settings. It is built using React and communicates with the backend for authentication and data retrieval.
 
 ## Architecture
+
 - **React.js** - Frontend framework
 - **React Router** - Handles navigation
 - **Axios** - For making API requests
@@ -17,6 +17,7 @@ This is the frontend for the API Management System, providing a user-friendly in
 - **Tailwind CSS** - Styling
 
 ## Features
+
 - **User Authentication**: Secure login and registration.
 - **Dashboard**: View API analytics and manage API keys.
 - **API Key Management**: Generate, view, and delete API keys.
@@ -24,31 +25,34 @@ This is the frontend for the API Management System, providing a user-friendly in
 - **Dark Mode Support**: UI theme toggle.
 
 ## Setup Instructions
+
 Ensure you have **Node.js** and **npm** installed.
 
 ### Steps:
+
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/harshapeshave641/APIMG-frontend.git
-   cd APIMG-frontend
-   ```
+
+```
+git clone https://github.com/<your-username>/API_Management_System.git
+cd API_Management_System
+```
 
 2. Install dependencies:
-   ```sh
-   npm install
-   ```
+
+```
+npm install
+```
 
 3. Create a `.env` file in the root directory with the following variables:
-   ```env
-   VITE_BACKEND_URL=http://localhost:5000
-   ```
+
+```
+VITE_BACKEND_URL=http://localhost:5000
+```
 
 4. Start the development server:
-   ```sh
-   npm run dev
-   ```
+
+```
+npm run dev
+```
 
 5. The frontend should now be running at `http://localhost:5173`.
-
-
-
